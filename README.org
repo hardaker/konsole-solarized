@@ -5,9 +5,24 @@ Solarized profiles for the KDE Konsole application
   The [[http://ethanschoonover.com/solarized][Solarized]] color scheme caught my eye the other day and I thought
   I'd apply it to [[http://konsole.kde.org/][KDE's Konsole]] terminal emulator.
 
+  I created just the white-on-black version for my first attempt.  A
+  black-on-white is needed as well. 
+
 * Installing
 
   Typically, you simply need to copy the *Solarized.profile* and
   *Solarized.colorscheme* files to your *~/.kde/share/aps/konsole/*
   directory.  Then /konsole/ application should present you with a
   /Solarized/ option under the /File -> New Tab/ menu.
+
+* Caveats, Notes and TODOs
+
+  + Instead of using some of the background colors, I did go with a
+    pure black.
+
+  + The bold versions of the colors are the same hue, but either have
+    a slightly higher value or saturation
+
+  + The blue on green, as put out by /ls/ in some cases is awful.
+    Probably messing with the LS_COLORS environment variable is needed
+    as well.
